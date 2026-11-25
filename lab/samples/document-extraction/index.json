@@ -1,0 +1,17 @@
+{
+  "schema": "tibyan-lab/samples@1",
+  "demo": "document-extraction",
+  "generated_at": "2026-11-25T00:00:00Z",
+  "generator": {
+    "repo": "tibyan-web",
+    "version": "fixture",
+    "commit": "fixture"
+  },
+  "samples": [
+    {
+      "id": "fixture-invoice",
+      "name": "Fixture invoice",
+      "file": "fixture-invoice.json"
+    }
+  ]
+}

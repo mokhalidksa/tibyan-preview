@@ -1,0 +1,22 @@
+{
+ "schema": "tibyan-lab/samples@1",
+ "demo": "forecast-check",
+ "generated_at": "2026-11-25T02:26:40Z",
+ "generator": {
+  "repo": "tibyan-lab",
+  "version": "0.1.0",
+  "commit": "06d7519"
+ },
+ "samples": [
+  {
+   "id": "mauna-loa-co2",
+   "name": "Mauna Loa CO2, monthly",
+   "file": "mauna-loa-co2.json"
+  },
+  {
+   "id": "us-births",
+   "name": "US births, daily",
+   "file": "us-births.json"
+  }
+ ]
+}

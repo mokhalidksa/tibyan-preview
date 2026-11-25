@@ -1,0 +1,298 @@
+{
+  "schema": "tibyan-lab/document-extraction@1",
+  "document": {
+    "id": "fixture-invoice",
+    "name": "Fixture invoice",
+    "source": {
+      "name": "Synthetic fixture, not a result"
+    },
+    "pages": [
+      {
+        "page": 1,
+        "width": 1240,
+        "height": 1754,
+        "image": "fixture-invoice-p1.webp"
+      }
+    ]
+  },
+  "fields": [
+    {
+      "id": "vendor",
+      "name": "Vendor",
+      "type": "text",
+      "value": "Lorem Supplies Ltd",
+      "source": {
+        "page": 1,
+        "box": [
+          0.0919,
+          0.0593,
+          0.5533,
+          0.114
+        ],
+        "text": "Lorem Supplies Ltd"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "invoice_number",
+      "name": "Invoice number",
+      "type": "identifier",
+      "value": "LS-0042",
+      "source": {
+        "page": 1,
+        "box": [
+          0.1698,
+          0.1551,
+          0.2648,
+          0.1796
+        ],
+        "text": "LS-0042"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "invoice_date",
+      "name": "Invoice date",
+      "type": "date",
+      "value": "2026-10-01",
+      "source": {
+        "page": 1,
+        "box": [
+          0.7829,
+          0.1551,
+          0.9081,
+          0.1796
+        ],
+        "text": "2026-10-01"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "due_date",
+      "name": "Due date",
+      "type": "date",
+      "value": "2026-10-31",
+      "source": {
+        "page": 1,
+        "box": [
+          0.7829,
+          0.1774,
+          0.9081,
+          0.2019
+        ],
+        "text": "2026-10-31"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "currency",
+      "name": "Currency",
+      "type": "currency",
+      "value": "GBP",
+      "source": {
+        "page": 1,
+        "box": [
+          0.1898,
+          0.1774,
+          0.2472,
+          0.2019
+        ],
+        "text": "GBP"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "subtotal",
+      "name": "Subtotal",
+      "type": "money",
+      "value": "105.00",
+      "source": {
+        "page": 1,
+        "box": [
+          0.8293,
+          0.4173,
+          0.9081,
+          0.4418
+        ],
+        "text": "105.00"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "tax",
+      "name": "Tax",
+      "type": "money",
+      "value": "21.00",
+      "source": {
+        "page": 1,
+        "box": [
+          0.8419,
+          0.4396,
+          0.9081,
+          0.4642
+        ],
+        "text": "21.00"
+      },
+      "confidence": "low"
+    },
+    {
+      "id": "total",
+      "name": "Total",
+      "type": "money",
+      "value": "126.00",
+      "source": {
+        "page": 1,
+        "box": [
+          0.8293,
+          0.462,
+          0.9081,
+          0.4865
+        ],
+        "text": "126.00"
+      },
+      "confidence": "high"
+    }
+  ],
+  "line_items": [
+    {
+      "description": {
+        "name": "Description",
+        "type": "text",
+        "value": "Lorem paper",
+        "source": {
+          "page": 1,
+          "box": [
+            0.0919,
+            0.2922,
+            0.4374,
+            0.3431
+          ],
+          "text": "Lorem paper"
+        },
+        "confidence": "high"
+      },
+      "quantity": {
+        "name": "Quantity",
+        "type": "number",
+        "value": "10",
+        "source": {
+          "page": 1,
+          "box": [
+            0.4277,
+            0.2922,
+            0.5361,
+            0.3431
+          ],
+          "text": "10"
+        },
+        "confidence": "high"
+      },
+      "unit_price": {
+        "name": "Unit price",
+        "type": "money",
+        "value": "4.50",
+        "source": {
+          "page": 1,
+          "box": [
+            0.5265,
+            0.2922,
+            0.6843,
+            0.3431
+          ],
+          "text": "4.50"
+        },
+        "confidence": "high"
+      },
+      "amount": {
+        "name": "Amount",
+        "type": "money",
+        "value": "45.00",
+        "source": {
+          "page": 1,
+          "box": [
+            0.6747,
+            0.2922,
+            0.9081,
+            0.3431
+          ],
+          "text": "45.00"
+        },
+        "confidence": "high"
+      }
+    },
+    {
+      "description": {
+        "name": "Description",
+        "type": "text",
+        "value": "Ipsum toner",
+        "source": {
+          "page": 1,
+          "box": [
+            0.0919,
+            0.3362,
+            0.4374,
+            0.3871
+          ],
+          "text": "Ipsum toner"
+        },
+        "confidence": "high"
+      },
+      "quantity": {
+        "name": "Quantity",
+        "type": "number",
+        "value": "2",
+        "source": {
+          "page": 1,
+          "box": [
+            0.4277,
+            0.3362,
+            0.5361,
+            0.3871
+          ],
+          "text": "2"
+        },
+        "confidence": "high"
+      },
+      "unit_price": {
+        "name": "Unit price",
+        "type": "money",
+        "value": "30.00",
+        "source": {
+          "page": 1,
+          "box": [
+            0.5265,
+            0.3362,
+            0.6843,
+            0.3871
+          ],
+          "text": "30.00"
+        },
+        "confidence": "high"
+      },
+      "amount": {
+        "name": "Amount",
+        "type": "money",
+        "value": "60.00",
+        "source": {
+          "page": 1,
+          "box": [
+            0.6747,
+            0.3362,
+            0.9081,
+            0.3871
+          ],
+          "text": "60.00"
+        },
+        "confidence": "high"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "line_items_sum",
+      "passed": true,
+      "expected": "105.00",
+      "actual": "105.00"
+    }
+  ]
+}

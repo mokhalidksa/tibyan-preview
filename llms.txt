@@ -1,0 +1,13 @@
+# Tibyan
+
+> Tibyan builds machine learning and LLM systems for operations teams, and shows the numbers: a baseline before, a measured result after.
+
+- [Tibyan | ML and LLM systems, with the numbers shown](https://tibyan.tech/): Tibyan is a two-person engineering studio building forecasting, risk scoring and document AI systems. Every result is reported against a baseline.
+- [Forecasting and risk scoring | Tibyan](https://tibyan.tech/services/machine-learning/): Forecasting, fraud and risk scoring models built and measured against your current method. Fixed-price pilots of two to four weeks.
+- [LLM document pipelines and private deployments | Tibyan](https://tibyan.tech/services/generative-ai/): Document extraction and retrieval systems built on LLMs, with measured accuracy. Includes deployments inside networks with no internet access.
+- [The lab | Tibyan](https://tibyan.tech/lab/): Two working demos. Check a forecast against a baseline, or extract structured data from an invoice. No sign-up.
+- [Forecast check | Tibyan](https://tibyan.tech/lab/forecast-check/): Upload a time series and see whether a model beats a seasonal baseline on your data.
+- [Document extraction | Tibyan](https://tibyan.tech/lab/document-extraction/): Upload an invoice and get structured fields back, each linked to where it came from.
+- [Field notes | Tibyan](https://tibyan.tech/notes/): Write-ups from ML and LLM projects: what was measured, what worked, and what did not.
+- [About | Tibyan](https://tibyan.tech/about/): Tibyan is an ML and LLM engineering studio run by two engineers in Riyadh and Pakistan. What the name means and how we work.
+- [Contact | Tibyan](https://tibyan.tech/contact/): Book a 30-minute scope call with Tibyan, or write to us about a forecasting, risk scoring or document AI problem.
